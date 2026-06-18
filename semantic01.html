@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>시멘틱태그</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- 위로 같은 화면을 따라다니는 고정 요소는 body 시작 후에 바로 쓰거나 main의 첫째 자식 위치로 작성하기 -->
+    <a href="#" class="top_btn">TOP</a>
+    <header><!-- class 필수 아님,nav 메인메뉴 -->
+        <h1>삼립</h1>
+        <nav>
+            <ul class="gnb">
+                <li><a href="#">회사소개</a>
+                    <ul class="lnb">
+                        <li><a href="#">Identity</a></li>
+                        <li><a href="#">연혁</a></li>
+                        <li><a href="#">Bl</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">지속가능</a></li>
+                <li><a href="#">브랜드</a></li>
+                <li><a href="#">삼립NOW</a><!-- 서브베뉴 작성을 위해 커서 놓고 엔터 2번 치는 위치 -->
+                    <ul class="lnb">
+                        <li><a href="#">삼립 스토리</a></li>
+                        <li><a href="#">미디어</a></li>
+                        <li><a href="#">보도자료</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <ul class="snb">
+            <li><a href="#">인재채용</a></li>
+            <li><a href="#">고객서비스</a></li>
+            <li><a href="#">삼립몰</a></li>
+            <li><a href="#">얌스토어</a></li>
+            <li><a href="#">검색</a>
+                <div class="search_open_box">통합겁색</div>
+            </li>
+            <li><a href="#">언어변경</a>
+                <ul class="lang_select">
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">한국어</a></li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <!-- 삼립NOW > 보도자료 -->
+        <h1>보도자료</h1>
+        <div class="new_old_btn">
+            <div class="new_old">
+                <a href="#">최신순</a>
+                <img src="" alt="|">
+                <a href="#">오래된순</a>
+            </div>
+            <p>전체<span> 343</span>개</p>
+        </div>
+        <ul class="news_list">
+            <li>
+                <a href="#">
+                    <P><img src="https://spcsamlip.co.kr/_next/image?url=%2Fuploads%2Fimages%2F81757d02-1754-44de-aae4-767313ff3171.jpg&w=828&q=100" alt="프로틴쿠키" width="100"></P>
+                    <div class="news_summary">
+                        <h2>삼립 프로젝트:H, 피트니스 브랜드 F45 협업 프로틴 쿠키 출시</h2>
+                        <p>2026년 6월 17일</p>
+                    </div>
+                </a>
+                <a href="#"><em>프로젝트H</em></a>
+            </li>
+            <li>
+                <a href="#">
+                    <P><img src="https://spcsamlip.co.kr/_next/image?url=%2Fuploads%2Fimages%2F90159f00-a2b7-42fb-be02-5fdcc54baf65.jpg&w=828&q=100" alt="샐러드" width="100"></P>
+                    <div class="news_summary">
+                        <h2>삼립 피그인더가든, 실속있게 챙기는 '가뿐하닭 샐러드' 출시</h2>
+                        <p>2026년 6월 10일</p>
+                    </div>
+                </a>
+                <a href="#"><em>피그인더가든</em></a>
+            </li>
+        </ul>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
